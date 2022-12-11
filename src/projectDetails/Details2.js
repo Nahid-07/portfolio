@@ -1,32 +1,35 @@
 import React from "react";
-import webIMG1 from "../assets/a-12-firebase-auth.web.app_ (2).png";
+import webIMG1 from "../assets/tra1.png";
 import webIMG2 from "../assets/a-11-firebase-authantication.web.app_services.png";
+import webIMG3 from "../assets/tra3.png";
+import webIMG4 from "../assets/addtra.png";
 
 const Details2 = () => {
   return (
     <>
       <input type="checkbox" id="details2" className="modal-toggle" />
       <div className="modal">
-        <div className="modal-box w-11/12 max-w-5xl">
+        <div className="modal-box w-11/12 max-w-5xl bg-slate-300">
           <section>
             <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
               <div>
                 <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl dark:text-gray-50">
-                  Aliquip definiebas ad est
+                  Project Travlog
                 </h2>
                 <p className="max-w-3xl mx-auto mt-4 text-xl text-center dark:text-gray-400">
-                  Quando cetero his ne, eum admodum sapientem ut.
+                  The technology uses in this project: React JS, Tailwind CSS,
+                  Daisy UI, React Icons, Sweet alert, React photo view,
+                  Firebase, MongoDB, Express JS, etc.
                 </p>
               </div>
               <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
                 <div>
                   <h3 className="text-2xl font-bold tracking-tight sm:text-3xl dark:text-gray-50">
-                    Ad vix debet docendi
+                    This is our home page
                   </h3>
                   <p className="mt-3 text-lg dark:text-gray-400">
-                    Ne dicta praesent ocurreret has, diam theophrastus at pro.
-                    Eos etiam regione ut, persius eripuit quo id. Sit te euismod
-                    tacimates.
+                    Here you will see the homepage items. Some section of the
+                    page. well organized
                   </p>
                   <div className="mt-12 space-y-12">
                     <div className="flex">
@@ -50,12 +53,11 @@ const Details2 = () => {
                       </div>
                       <div className="ml-4">
                         <h4 className="text-lg font-medium leading-6 dark:text-gray-50">
-                          Per ei quaeque sensibus
+                          Section one
                         </h4>
                         <p className="mt-2 dark:text-gray-400">
-                          Ex usu illum iudico molestie. Pro ne agam facete
-                          mediocritatem, ridens labore facete mea ei. Pro id
-                          apeirian dignissim.
+                          In this section you see somne category of card.. when
+                          you post earlier somthing it show first in the row
                         </p>
                       </div>
                     </div>
@@ -80,12 +82,10 @@ const Details2 = () => {
                       </div>
                       <div className="ml-4">
                         <h4 className="text-lg font-medium leading-6 dark:text-gray-50">
-                          Cu imperdiet posidonium sed
+                          Section Tow
                         </h4>
                         <p className="mt-2 dark:text-gray-400">
-                          Amet utinam aliquando ut mea, malis admodum ocurreret
-                          nec et, elit tibique cu nec. Nec ex maluisset
-                          inciderint, ex quis.
+                          In this section you will see a simple banner
                         </p>
                       </div>
                     </div>
@@ -110,12 +110,11 @@ const Details2 = () => {
                       </div>
                       <div className="ml-4">
                         <h4 className="text-lg font-medium leading-6 dark:text-gray-50">
-                          Nulla omittam sadipscing mel ne
+                          section 4
                         </h4>
                         <p className="mt-2 dark:text-gray-400">
-                          At sed possim oporteat probatus, justo graece ne nec,
-                          minim commodo legimus ut vix. Ut eos iudico quando
-                          soleat, nam modus.
+                          Here is a simple blog section where the top most
+                          tourist spots are highlighted
                         </p>
                       </div>
                     </div>
@@ -133,13 +132,9 @@ const Details2 = () => {
                 <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
                   <div className="lg:col-start-2">
                     <h3 className="text-2xl font-bold tracking-tight sm:text-3xl dark:text-gray-50">
-                      Eam nibh gloriatur ex
+                      This is the All category section
                     </h3>
-                    <p className="mt-3 text-lg dark:text-gray-400">
-                      Per odio fabellas consulatu cu. Utroque detracto mel ea,
-                      quo te latine theophrastus. Ea his tale nibh dissentias,
-                      mei exerci tamquam euripidis cu.
-                    </p>
+                    <p className="mt-3 text-lg dark:text-gray-400"></p>
                     <div className="mt-12 space-y-12">
                       <div className="flex">
                         <div className="flex-shrink-0">
@@ -242,6 +237,10 @@ const Details2 = () => {
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <img className="w-96" src={webIMG3} alt="" />
+              <img className="w-96" src={webIMG4} alt="" />
             </div>
           </section>
           <div className="modal-action">

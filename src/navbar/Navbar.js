@@ -1,7 +1,5 @@
-import React, { useState } from 'react';
-import {HashLink as Link} from 'react-router-hash-link';
-
-
+import React, { useState } from "react";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,15 +7,12 @@ const Navbar = () => {
     <div className="bg-slate-900 fixed top-0 w-full z-10">
       <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="relative flex items-center justify-between">
-          
           <Link
-
-            to=''
+            to=""
             aria-label="Smart Home"
             title="Smart Home"
             className="inline-flex items-center"
           >
-           
             <span className="ml-2 text-xl font-bold tracking-wide text-white uppercase italic">
               Developer Nahid
             </span>
@@ -25,7 +20,7 @@ const Navbar = () => {
           <ul className="flex items-center hidden space-x-8 lg:flex">
             <li>
               <Link
-                to='#skills'
+                to="#skills"
                 aria-label="Home"
                 title="Home"
                 className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -35,17 +30,17 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to='#aboutme'
+                to="#aboutme"
                 title="courses"
                 className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 About Me
               </Link>
             </li>
-            
+
             <li>
               <Link
-                to='#projects'
+                to="#projects"
                 title="Blog"
                 className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
@@ -54,12 +49,20 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to='#contact'
+                to="#contact"
                 title="FAQ"
                 className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 Contact me
               </Link>
+            </li>
+            <li>
+              <div
+                className="tooltip text-white"
+                data-tip="This page will add soon"
+              >
+                Blog
+              </div>
             </li>
             <li>
               <label className="swap swap-rotate">
@@ -82,7 +85,6 @@ const Navbar = () => {
                 </svg>
               </label>
             </li>
-            
           </ul>
           <div className="lg:hidden">
             <button
@@ -112,7 +114,6 @@ const Navbar = () => {
                   <div className="flex items-center justify-between mb-4">
                     <div>
                       <Link
-                        href='#'
                         aria-label="Company"
                         title="Company"
                         className="inline-flex items-center"
@@ -142,31 +143,48 @@ const Navbar = () => {
                     <ul className="space-y-4">
                       <li>
                         <Link
-                          href='#'
+                          to="#skills"
                           title="courses"
                           className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Courses
+                          Skills
                         </Link>
                       </li>
-                      
+
                       <li>
                         <Link
-                          href='#'
+                          to="#aboutme"
                           title="Blog"
                           className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Blog
+                          About me
                         </Link>
                       </li>
                       <li>
                         <Link
-                          href='#'
+                          to="#projects"
                           title="FAQ"
                           className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          FAQ
+                          Projects
                         </Link>
+                      </li>
+                      <li>
+                        <Link
+                          to="#contact"
+                          title="FAQ"
+                          className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        >
+                          Contact me
+                        </Link>
+                      </li>
+                      <li>
+                        <div
+                          className="tooltip text-white"
+                          data-tip="This page will add soon"
+                        >
+                          Blog
+                        </div>
                       </li>
                     </ul>
                   </nav>

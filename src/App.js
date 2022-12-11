@@ -1,4 +1,4 @@
-import { BrowserRouter, RouterProvider } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import Aboutme from "./aboutme/Aboutme";
 import Form from "./Form/Form";
 import Hero from "./Hero/Hero";
@@ -7,7 +7,6 @@ import Details1 from "./projectDetails/Details1";
 import Details2 from "./projectDetails/Details2";
 import Details3 from "./projectDetails/Details3";
 import Projects from "./Projects/Projects";
-import { router } from "./routes/Routes";
 import SkillsBanner from "./Skillsbanner/SkillsBanner";
 
 function App() {

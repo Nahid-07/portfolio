@@ -2,7 +2,6 @@ import React from "react";
 import ss1 from "./../assets/Screenshot (100).png";
 import ss2 from "../assets/a-12-firebase-auth.web.app_ (3).png";
 import ss3 from "../assets/Screenshot (9).png";
-import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -22,10 +21,12 @@ const Projects = () => {
                 A travel guide project. User can know about the cost of the each
                 tourist spot. Also they will know how can they go there
               </p>
-              <div className="card-actions justify-end">
-              <label htmlFor="details2" className="btn">
+              <div className="card-actions justify-between">
+                <label htmlFor="details2" className="btn btn-sm">
                   See details
                 </label>
+                <a href="https://a-11-firebase-authantication.web.app/"><button className="btn btn-sm">Live site</button></a>
+                <a href="https://github.com/Nahid-07/Travelog-client"><button className="btn btn-sm">Github repository</button></a>
               </div>
             </div>
           </div>
@@ -40,10 +41,12 @@ const Projects = () => {
                 seller can post their product. A payment option enable this
                 website
               </p>
-              <div className="card-actions justify-end">
-                <label htmlFor="my-modal-5" className="btn">
+              <div className="card-actions justify-between">
+                <label htmlFor="my-modal-5" className="btn btn-sm">
                   See details
                 </label>
+                <a href="https://a-12-firebase-auth.web.app/"><button className="btn btn-sm">Live site</button></a>
+                <a href="https://github.com/Nahid-07/SellBD-client"><button className="btn btn-sm">Github repository</button></a>
               </div>
             </div>
           </div>
@@ -58,10 +61,12 @@ const Projects = () => {
                 preffered programming language courses. Before buy any course
                 user must be log in first
               </p>
-              <div className="card-actions justify-end">
-              <label htmlFor="details3" className="btn">
+              <div className="card-actions justify-between">
+                <label htmlFor="details3" className="btn btn-sm">
                   See details
                 </label>
+                <a href="https://a10-learning-client-side.web.app/"><button className="btn btn-sm">Live site</button></a>
+                <a href="https://github.com/Nahid-07/TechBD-client"><button className="btn btn-sm">Github repository</button></a>
               </div>
             </div>
           </div>
